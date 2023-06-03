@@ -1,0 +1,53 @@
+#logomarca {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+iframe {
+    display: block;
+    margin: auto;
+}
+h1 {
+    font-family: cursive;
+}
+h2 {
+    font-family: cursive;
+}
+a:active {
+    color: black;
+}
+a:hover {
+    color: darkgreen;
+}
+a:visited {
+    color: red;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+.passo strong {
+    background-color: aqua;
+    color: violet;
+    font-size: 45px;
+}
+.passo em {
+    font-size: 24px;
+}
+body {
+    background-image: linear-gradient(lightgreen, lightblue, purple)
+}
+p:nth-child(2n + 1) {
+    text-align: left;
+}
+p:nth-child(2n) {
+    text-align: right;
+}
+.nota {
+    opacity: 0.5;
+    background-color: blue;
+    color: white;
+}
+.nota strong {
+    color: red;
+}
